@@ -1,0 +1,5 @@
+E:\ergoWMS\ergoWMS\bin\ergoWMS.dll
+E:\ergoWMS\ergoWMS\bin\ergoWMS.pdb
+E:\ergoWMS\ergoWMS\obj\Debug\ResolveAssemblyReference.cache
+E:\ergoWMS\ergoWMS\obj\Debug\ergoWMS.dll
+E:\ergoWMS\ergoWMS\obj\Debug\ergoWMS.pdb
