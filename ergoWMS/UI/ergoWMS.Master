@@ -34,14 +34,47 @@
 			</div>
 		</div>
 	</div>
-	<div id="page" class="container">
-		
-		<div id="content">
-			 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+<div id="footer-wrapper">
+	<div id="footer-content">
+		<div id="fbox1">
+		<form id="form1" runat="server">
+    
+            <asp:TreeView ID="TreeMenu" runat="server" PopulateNodesFromClient="True">
+                <Nodes>
+                <asp:TreeNode Value="Parent1" Expanded="True" Text="Einstellungen" />
+                <asp:TreeNode Value="Parent2" Expanded="True" Text="Berichte zur physischen Belastung" />
+    <asp:TreeNode Value="Parent3" Expanded="True" Text="Auswertung Schicht">
+        <asp:TreeNode Value="Child3A" Text="Mitarbeiter" />
+        <asp:TreeNode Value="Child3B" Text="Tätigkeit" />
+        <asp:TreeNode Value="Child3B" Text="Lagerplatzzone" />
+    </asp:TreeNode>
+    <asp:TreeNode Value="Parent4" Text=" Auswertung Monat">
+        <asp:TreeNode Value="Child3A" Text="Mitarbeiter" />
+        <asp:TreeNode Value="Child3B" Text="Tätigkeit" />
+        <asp:TreeNode Value="Child3B" Text="Lagerplatzzone" />
+    </asp:TreeNode>
+    <asp:TreeNode Value="Parent3" Expanded="True" Text="Auftragsvergabe">      
+    </asp:TreeNode>
+    <asp:TreeNode Value="Parent3" Expanded="True" Text="Lagerfachbelegung
+">      
+    </asp:TreeNode>
+    <asp:TreeNode Value="Parent3" Expanded="True" Text="Mitarbeitereinsatzplanung">      
+    </asp:TreeNode>
+    <asp:TreeNode Value="Parent3" Expanded="True" Text="Vergütung">      
+    </asp:TreeNode>
+  </Nodes>
+            </asp:TreeView>
+            
+    </form>
+		</div>
+		<div id="fbox2">
+					<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 
             </asp:ContentPlaceHolder>
 		</div>
 	</div>
+</div>
 </div>
 <div id="footer">
 	<p>Copyright (c) 2012. All rights reserved. Design by <a href="http://www.tum.de/" target="_blank">TUM</a></p>

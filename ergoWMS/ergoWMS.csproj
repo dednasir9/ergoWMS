@@ -77,9 +77,17 @@
     <Compile Include="UI\first.aspx.designer.cs">
       <DependentUpon>first.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UI\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="UI\ergoWMS.Master" />
+    <Content Include="UI\WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
